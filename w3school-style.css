@@ -1,0 +1,63 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 10vh;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+    align-items: center;
+}
+.navbar-left{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    width: 5vw;
+    height: 4vh;
+}
+.navbar-center{
+    display: flex;
+    flex: 1;
+    color: white;
+    font: hide;
+}
+.navbar-right{
+    display: flex;
+    justify-content: right;
+   
+  
+    flex: 1;
+  
+    
+
+   
+}
+.navbar-right .navbar-buttons{
+    display: flex;
+    border: 1px solid rgb(141, 91, 120);
+    background-color: pink;
+    border-radius: 8px;
+    font-size: 100%;
+    width:10vw;
+    height: 5vh;
+}
+.navbar-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    cursor: pointer;
+   
+}
+.navbar-items:hover{
+    border: 1px solid black;
+    height: 10vh;
+    background-color: #04aa6d;
+}
+.Main{
+    display: flex;
+    border: 1px solid black;
+}
+
